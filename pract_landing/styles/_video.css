@@ -1,0 +1,135 @@
+.video {
+	position: relative;
+	display: flex;
+	flex-flow: wrap;
+	margin-top: 30px;
+	justify-content: space-between;
+	min-height: 100px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.video-section {
+	padding: 20px 0;
+}
+
+.video-section .section-margin-bottom-24px {
+	padding: 50px 0;
+}
+
+.video-section .content-wrap {
+	flex-direction: column-reverse;
+}
+
+.btn-play {
+	position: absolute;
+	left: calc(50% - 33px);
+	top: calc(50% - 33px);
+	/*transform: translate(-50%);*/
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	background-color: var(--brand-color);
+	background-image: url('../img/play.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+
+@media (min-width: 1200px) {
+	.video-section .content-wrap {
+		flex-direction: row;
+	}
+	.video-section {
+		padding: 95px 0;
+	}
+	.video-intro {
+		max-width: 945px;
+		margin-right: 85px;
+	}
+	.btn-play {
+		left:  -33px;
+	}
+	.video {
+		margin-bottom: 0;
+	}
+
+.section-video{
+	padding-top: 94px;
+	padding-bottom: 95px;
+}
+
+.video {
+	position: relative;
+	border-radius: 15px;
+}
+
+}
+
+.article {
+	padding: 0;
+	
+	}
+	
+	.article img{
+	padding-bottom: 16px;
+	
+	}
+
+	.article_container__main {
+		flex-direction: row-reverse;
+
+	}
+
+	.article-main, .article-main__img {
+		width: 50%;
+	}
+
+	.article-main__img {
+		padding: 33px 6px 26px 0;
+	}
+
+	.article-main {
+		padding: 142px 33px 0;
+	}
+
+	.article-main p {
+		padding: 56px 0;
+	}
+
+	.article_container {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.article_container article {
+		width: 34%;
+		border-left: 1px solid #DFDEDB;
+		border-bottom: 1px solid #DFDEDB;
+		padding: 24px 15px 70px;
+	}
+
+	.article_container article:first-child{
+		border-left: none;
+	}
+
+
+	.circle {
+		display: block;
+		width: 200px;
+		height: 50px;
+		line-height: 50px;
+		border: 2px solid white;
+		margin: 0 auto;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+		border-radius: 40px;
+		background-color: #2639ED;
+		margin-left: 35px;
+	}
+
+.center {
+width: 40%;
+display: inline-block;
+}
